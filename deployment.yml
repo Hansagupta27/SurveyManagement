@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: survey-management-deployment
+  labels:
+    app: SurveyManagement
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: SurveyManagement
+  template:
+    metadata:
+      labels:
+        app: SurveyManagement
+    spec:
+      containers:
+        - name: SurveyManagement
+          image: survey-management:latest
+          ports:
+            - containerPort: 8080
+          imagePullPolicy: Never

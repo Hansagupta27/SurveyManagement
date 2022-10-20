@@ -1,0 +1,33 @@
+{
+  "surveyName": "testing survey",
+  "questions": [
+    {
+      "questionOrderNumber": 1,
+      "questionText": "Where does Santa lives?",
+      "questionOptions": [
+        {
+          "optionOrder": 4,
+          "optionText": "Helsinki"
+        },
+        {
+          "optionOrder": 1,
+          "optionText": "London"
+        }
+      ]
+    },
+    {
+      "questionOrderNumber": 1,
+      "questionText": "Where does Santa not lives?",
+      "questionOptions": [
+        {
+          "optionOrder": 2,
+          "optionText": "Helsinkis"
+        },
+        {
+          "optionOrder": 3,
+          "optionText": "Londons"
+        }
+      ]
+    }
+  ]
+}
