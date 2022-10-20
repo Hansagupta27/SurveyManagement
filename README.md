@@ -38,14 +38,14 @@ POST **/survey/create** - Create a survey which takes survey name, question numb
 
 POST **/survey/submit** - Submits the answer for a survey which takes surveyId, user information, answers and answer text in input. Validates input againts the database. If valid, saves the answers for survey.
 
-
-````
 **Testing Scope**
 
 This repository contains two types of test covering both positive and negative scenarios:
 1. Unit Test Using Junit5/Mockito
 2. Integration Test/Application Test Using Cucumber
-```
+
+````
+
 
 curl --location --request POST 'http://localhost:8080/survey/create' \
 --header 'Content-Type: application/json' \
